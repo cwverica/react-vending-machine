@@ -2,6 +2,24 @@
   text-align: center;
 }
 
+.App a {
+  margin: 1rem;
+}
+
+.Nav-Bar {
+  background-color: darkslategray;
+}
+
+.Nav-Bar a {
+  margin: 1rem;
+  color: antiquewhite;
+}
+
+.Nav-Bar a.active {
+  color: white;
+  text-decoration: line-through;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
